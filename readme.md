@@ -1,3 +1,10 @@
+## To run tests
+
+```
+npm install
+npm test
+```
+
 <article class="markdown-body entry-content container-lg" itemprop="text">
   <h4>
     <a
@@ -135,5 +142,6 @@
 
 <span class="pl-s1">scrabble</span> <span class="pl-c1">=</span> <span class="pl-v">Scrabble</span><span class="pl-kos">.</span><span class="pl-en">new</span><span class="pl-kos">(</span><span class="pl-s">'OXYPHENBUTAZONE'</span><span class="pl-kos">)</span>
 <span class="pl-s1">scrabble</span><span class="pl-kos">.</span><span class="pl-en">score</span> <span class="pl-c"># =&gt; 41</span></pre>
+
   </div>
 </article>
