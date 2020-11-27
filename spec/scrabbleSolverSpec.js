@@ -34,4 +34,9 @@ describe('ScrabbleSolver', () => {
     solver = new ScrabbleSolver(null);
     expect(solver.score()).toEqual(0);
   });
+
+  it('It return 0 when not a valid string is passed', () => {
+    solver = new ScrabbleSolver(' \t\n');
+    expect(solver.score()).toEqual(0);
+  });
 });
