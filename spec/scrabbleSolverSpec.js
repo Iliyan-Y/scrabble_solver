@@ -1,9 +1,8 @@
 describe('ScrabbleSolver', () => {
-  let Solver = require('../lib/scrabbleSolver');
+  let ScrabbleSolver = require('../lib/scrabbleSolver');
 
   it('It retunrs score of zero when the word is empty', () => {
-    solver = new Solver('');
-
+    solver = new ScrabbleSolver('');
     expect(solver.score()).toEqual(0);
   });
 });
